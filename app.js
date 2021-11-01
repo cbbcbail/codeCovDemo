@@ -9,7 +9,7 @@ class App {
       return a * b;
     }
     static divide(a, b) {
-      return a + b;
+      return a / b;
     }
 }
 
