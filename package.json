@@ -1,0 +1,19 @@
+{
+  "name": "codecovdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbbcbail/codeCovDemo.git"
+  },
+  "author": "Connor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbbcbail/codeCovDemo/issues"
+  },
+  "homepage": "https://github.com/cbbcbail/codeCovDemo#readme"
+}
