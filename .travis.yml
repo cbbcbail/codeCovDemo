@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - node
+
+script:
+  - npm install -D nyc mocha chai coveralls
+  - npm run test
+
+after_success:
+  - npm run coverage
+  - npm run coveralls
+
+notifications:
+  email: false

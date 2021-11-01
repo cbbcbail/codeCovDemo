@@ -2,9 +2,10 @@
   "name": "codecovdemo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "nyc mocha app.test.js --exit"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/cbbcbail/codeCovDemo/issues"
   },
-  "homepage": "https://github.com/cbbcbail/codeCovDemo#readme"
+  "homepage": "https://github.com/cbbcbail/codeCovDemo#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "coveralls": "^3.1.1",
+    "mocha": "^9.1.3",
+    "nyc": "^15.1.0"
+  }
 }
